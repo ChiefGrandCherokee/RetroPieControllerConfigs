@@ -4,7 +4,7 @@ This repo contains different controller configs for use with the RetroPie. Just 
 # 8Bitdo NES30 Pro
 Tested with firmware: v1.71 & v1.69
 
-For some reason you need to have both files in here, or the one without the spaces reverts to the incorrect button numbers.
+For some reason you need to copy both controller config files into "/opt/retropie/configs/all/retroarch-joypads", or the one without the spaces reverts to the incorrect button numbers. You also need to include the mupen64plus.cfg file in "/opt/retropie/configs/n64/mupen64plus.cfg" and the mupen64plus.sh file in "/opt/retropie/emulators/mupen64plus/bin/" to make hotkeys work correctly in the n64 emulator.
 
 # PS3
 Work in progress
